@@ -158,8 +158,7 @@ class SpotifyAPI(MusicInfo):
         ) -> (str | None):
 
         if 'spotify.com' in track_uri:
-            unquote_uri = unquote(track_uri)
-            return unquote_uri.split('/')[-1]
+            return unquote(track_uri).split('/')[-1]
         return self.search_track_id(track_uri)
 
     def get_album_image(

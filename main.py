@@ -1,4 +1,4 @@
-import argparse
+from argparse import ArgumentParser
 from os import getcwd
 from os import remove as _remove
 from os import system as _system
@@ -248,7 +248,7 @@ class Runner(SpotifyAPI, Colors):
 
 
 def run_app():
-    parser = argparse.ArgumentParser()
+    parser = ArgumentParser()
     parser.add_argument('query', nargs='?', help='The track title and artist / Spotify URL')
     args = parser.parse_args()
 

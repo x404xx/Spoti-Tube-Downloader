@@ -188,7 +188,7 @@ class SpotifyAPI(MusicInfo):
         return response.json()
 
 
-class AuthCreds():
+class AuthCreds:
     MISSING_CONFIG = dedent("""
     ⚠️  Could not find CLIENT_ID and CLIENT_SECRET in environment variables or configuration.
     ⚠️  Please choose one of the following options:

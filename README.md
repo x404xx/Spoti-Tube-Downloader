@@ -4,7 +4,7 @@
 
 **Spoti-Tube** finds songs from Spotify using track title - artist, or URL and downloads them from YouTube, along with album art, and metadata.
 
-<img src="https://github.com/x404xx/Spoti-Tube-Downloader/assets/114883816/eb9ca36a-4140-4cc0-8c51-7d3ea8cb268e" width="400" height="280">
+<img src="https://github.com/x404xx/Spoti-Tube-Downloader/assets/114883816/eb9ca36a-4140-4cc0-8c51-7d3ea8cb268e" width="auto" height="auto">
 
 </div>
 
